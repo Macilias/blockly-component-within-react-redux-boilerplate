@@ -1,7 +1,7 @@
 /*
- * HomePage Messages
+ * BlocklyPage Messages
  *
- * This contains all the text for the HomePage component.
+ * This contains all the text for the BlocklyPage component.
  */
 import { defineMessages } from 'react-intl';
 

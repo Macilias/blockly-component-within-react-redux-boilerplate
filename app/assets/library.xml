@@ -1,0 +1,1005 @@
+<xml xmlns="http://www.w3.org/1999/xhtml"><block type="factory_base" id="j[}HhO%[kfq=Q2HHD#yB" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">product</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="8~4M`CH$vy*Q=c/U:%`_">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Fy?u-85._Yt!OI9RWFf:">
+            <field name="TEXT">Produkt</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="7d2$)TO`(L2Y:KJJ6Xbf">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=":{aUV@FX`3CUIDH2F]!s">
+                <field name="TEXT">Name</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <block type="type_string" id="vCnVmMh@RBcwxmaw)xnQ"></block>
+            </value>
+            <next>
+              <block type="input_value" id="CdtX/2npC;RN(fk4WXKS">
+                <field name="INPUTNAME">MANUFACTURER</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="}(X`3C*?Mz5b2VK]KJCl">
+                    <field name="TEXT">Hersteller</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <block type="type_string" id="2Z`9#fa[Bo$ds+B6P2Q1"></block>
+                </value>
+                <next>
+                  <block type="input_value" id="gU8rJh$c|N,tFPa_,3Vr">
+                    <field name="INPUTNAME">PRODUCT_TYPE</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="@v[{LUZ*PIncwIj.PGmX">
+                        <field name="TEXT">Produkt Typ</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <block type="type_other" id="XZ#%L{g`yuTQyNRfm8Jh">
+                        <field name="TYPE">prodType_constant</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="input_value" id="kv.*B_c$F}IhOjD^.FP!">
+                        <field name="INPUTNAME">MATCHER</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="98QIq`vHE.BJ3p}?[(Ja">
+                            <field name="TEXT">Positions Typ</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <block type="type_other" id="`j$(#ZAXVDr3OO8^l?$*">
+                            <field name="TYPE">oType_constant</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="input_value" id="xcoC@=0%d|p2=1oe6P8n">
+                            <field name="INPUTNAME">MATERIAL</field>
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="4jpWB:~%rYutzpzbk;*W">
+                                <field name="TEXT">Material Typ</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <block type="type_other" id="CxDQ[SqDe7ek/#%+aF=R">
+                                <field name="TYPE">matType_constant</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="input_value" id="K5~(5a5LR7e$eS[k`MO?">
+                                <field name="INPUTNAME">FEATURES</field>
+                                <field name="ALIGN">RIGHT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="yYJ!|m{E3iPUQ^XUNPC9">
+                                    <field name="TEXT">Features</field>
+                                  </block>
+                                </statement>
+                                <value name="TYPE">
+                                  <shadow type="type_null" id="FY}}HuLU0_Aj(.;Ena!S"></shadow>
+                                  <block type="type_list" id="$fMu3Z{i/,h0X(]d!h[B"></block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Fi,(6N3H`j^i}G/)X#ke">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4T#5[c@u;mOhMjwg**Yu">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="@D/X?|!{zGnUvI}w?^!M"></shadow>
+      <block type="type_other" id="3Ph.zxA~O;62=i7obk0*">
+        <field name="TYPE">product</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="ql[KE|uf/Z)J%.?.(Msv">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="=}uH{a]1NFwM9_0qYgv}" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">kategorie_constant_instance_door</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id=")K!;f8b#!QSqocI4V|,[">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="0qR^4sWu`z},gMYIpR1a">
+            <field name="TEXT">Tür</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="}1AN6iZORumX{dx/AzkY" deletable="false" movable="false">
+        <field name="TEXT">Diese Konstante soll verwendet werden um die Kategorie eines Produktes und der damit zu erzeugenden Lösung zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="ClPb^/=;[IaD+rwa,e-S" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="RTw4sX`a64o#]L%l5_XR"></shadow>
+      <block type="type_other" id="fdFrXj:YZ9nH+1eL:*mO">
+        <field name="TYPE">categorie_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="pj5x)Vg%;lYpH8DP,.iI">
+        <mutation colour="#a5a55b"></mutation>
+        <field name="HUE">60</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="KtcYp4G/B8.=WJj8JuWh" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">kategorie_constant_instance_window</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="9#rbf_kqez};la`wv7i|">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="SirCVVxc%}_@}(?@ZxTE">
+            <field name="TEXT">Fenster</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="?;Toa4fzTn4.Vi^Vo7O/">
+        <field name="TEXT">Diese Konstante soll verwendet werden um die Kategorie eines Produktes und der damit zu erzeugenden Lösung zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="*K*9kFPq70^ptkdQJ/Yy">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="+IF|AyFoy+n7tPD/0?1f">
+        <field name="TYPE">categorie_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="oI5VmjxMc-9[^ekO2F9}">
+        <mutation colour="#a5a55b"></mutation>
+        <field name="HUE">60</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="F.6/Ny6rwA?,f1/y56ZV" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">otype_matcher_constant_instance_door</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Nj^1$0)h.OLSk$$rfx#5">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="N1{/eNfd`?:r6e}x#@y[">
+            <field name="TEXT">Haustür</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Cf*rk6udX?g4EJ13rX^g">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer Position zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="V8ZLxlU-9KK*6q?sSXlO">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="jYg_Yegx+1*}3,AW;V?D">
+        <field name="TYPE">oType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="qJeI:R~zRgw7$9h/1%Zi">
+        <mutation colour="#5b80a5"></mutation>
+        <field name="HUE">210</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="85Ag}iU8SP-wrbo-]+~q" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">otype_matcher_constant_instance_window_door</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="|s4A_?r7M7Yb7hcgc}7j">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="SbM[N,dNT442GIquu~qj">
+            <field name="TEXT">Balkon-/Terassentür</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="9YT2HZWXes.dWPYZjiwB">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer Position zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="lmz10Y^Fi+?GZ/J-8EP3">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="^qRHi$wv7L!UZQ,vIq1[">
+        <field name="TYPE">oType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="?UC+ZV1-7DI!jE*o0y7t">
+        <mutation colour="#5b80a5"></mutation>
+        <field name="HUE">210</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="oY`c[Xfq!WJmr#Y9UMRL" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">otype_matcher_constant_instance_window</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="o,,cz||a^xZ[#r0S%/IW">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Z1u#%ECoL:lbg%3ok_Yp">
+            <field name="TEXT">Fenster</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="$@t$H0`D{G_-5dIxw`nH">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer Position zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="W(X!gcZXMu;_Cg+#xnol">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="l18/:r,E|l=3n8*Q+lBi">
+        <field name="TYPE">oType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="`V9CSe@v~!XX)$.wTklE">
+        <mutation colour="#5b80a5"></mutation>
+        <field name="HUE">210</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="#)W^*.FAyo`D3xn8OXQ." x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">matType_constant_instance_pvc</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="1/YwJ[Ot,TH4.~r@5rb%">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="}ZTi%NRd}?J:XYFV-K)w">
+            <field name="TEXT">Kunststoff</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="cqe+k[,`QJ4C8`I[QZT0">
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="7*Fp-48m^7|Hq5y^Y!I4">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="[ZvVAPz@KHT0/IGl$V)%">
+        <field name="TYPE">matType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="^|rb{PVCknfJB54IT;[f">
+        <mutation colour="#5b5ba5"></mutation>
+        <field name="HUE">240</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="@p}yYW*.=Z@%1P{:Sa2f" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">mattype_constant_instance_pvcAlu</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="LZ92Q1#+h:gmK50+1can">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TJ|c|~mQDjwn+XYDfT1U">
+            <field name="TEXT">Kunststoff-Aluminium</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="qvH~bM5xG=2?BQnb2-DC">
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="w=21;Ly]vl;LI}jVFN{[">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="(j}O~i:*-lx9mOLnO5wW">
+        <field name="TYPE">matType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="/X#W=g45]04QTRV4pAx$">
+        <mutation colour="#5b5ba5"></mutation>
+        <field name="HUE">240</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="z]y682zu6=l+=$pO]10p" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">mattype_constant_instance_alu</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="1)RqCT/-B2,6$ub[-~A]">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="?ooJl:T/C!rk:.Q,k4B^">
+            <field name="TEXT">Aluminium</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="^tEbc)l9i}~Wuo5!`,rn">
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="t]GAzPd^nu:[JbS?Si=]">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="_Kl=+#4D:R9pph~bc{xK">
+        <field name="TYPE">matType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="@oy5aLntb!lxhGjk@$ry">
+        <mutation colour="#5b5ba5"></mutation>
+        <field name="HUE">240</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="kih@%eTLw6[PS;D5{{dZ" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">mattype_constant_instance_wood</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="l!}Ph;:.=D7,0?l:3CYk">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="7+BYCeKVby=lV0(7-V^v">
+            <field name="TEXT">Holz</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="#U,YDp8RPb)_i5I,sIBU">
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="+)sf@0#gxt%xTX7M4Zy_">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="ULGQquvf6u)e,Y#vnOE!">
+        <field name="TYPE">matType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="6pY^]%VX:2vCSU?YyevT">
+        <mutation colour="#5b5ba5"></mutation>
+        <field name="HUE">240</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="63UItGk^c^YPLnv.KB/Y" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">mattype_constant_instance_woodAlu</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="1nsvche/Os.BAwLIuu]I">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="qanMF|Hk$YL;)zW@=MH$">
+            <field name="TEXT">Holz-Aluminium</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=";$u**J4[9f62tjSK=.jM">
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="6hwZ-9g+muT-!a81uTOJ">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="1FyuD`+.|%2[xH4qUR*)">
+        <field name="TYPE">matType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[*Sh+`F@sO/w6VDEPgAx">
+        <mutation colour="#5b5ba5"></mutation>
+        <field name="HUE">240</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="kPZ5a4Y,Gn[B8,ljfJ?P" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">prodtype_constant_instance_frame</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="!pDD-EusMrd(6+TKB98y">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="_Ms.|`V,7boPF(wV}($x">
+            <field name="TEXT">Rahmen</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="bNNySVg;bmA?g5MP+$_M">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="MIwCB~!tc((]*+lu7OVB">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="@UDE,lDo_gKD*HA!A,e,">
+        <field name="TYPE">prodType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=",Hu,iUHFLvkLXs^$fTNr">
+        <mutation colour="#805ba5"></mutation>
+        <field name="HUE">270</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="PMBKl}lx,$-G89N|x~]1" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">prodtype_constant_instance_sill</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Aj,b,BDuk${nN+7r8W.E">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Sou:ky6%XZ)7T[iV#Q|z">
+            <field name="TEXT">Bodenschwelle</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Ar]V_0T_KU5d(Sipx=y/">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="Mao4mtR;)fky}^hm~TQ_">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="4~Ng)kPNxuv^DdraUp:i">
+        <field name="TYPE">prodType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="DZ[~6d)$hw$?znCW8XvE">
+        <mutation colour="#805ba5"></mutation>
+        <field name="HUE">270</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="q`6!K%;-XH_~v?m/=x2S" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">prodtype_constant_instance_windowsill</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="})z2|F-)7I1:c[6PJP5o">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="8^]PuV(StS?p`u!;KbMf">
+            <field name="TEXT">Fensterbank</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="nkP8!@7vN+QtRujhiN:.">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="$AAHHQgO)fO?G3/;VuYz">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="!;iXw5(SL?jO!b@YZkTE">
+        <field name="TYPE">prodType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="7(?zyl3w{Ajps92bEmfn">
+        <mutation colour="#805ba5"></mutation>
+        <field name="HUE">270</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="ZFAHu#J+WWg5;0?^oyDc" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">prodtype_constant_instance_handle</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="N|$wk}|N]0fu{}@$SFLY">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="AiqyZ%0(187K9o==3mzc">
+            <field name="TEXT">Griff</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="77Ue+jz~L..!@:iNi`~R">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="~S2s{I7FuJRI(jLwK{9r">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="uQ/_8#]I.#DUmAc:stLI">
+        <field name="TYPE">prodType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="-=P6a}+}[XF5C?BDu|i%">
+        <mutation colour="#805ba5"></mutation>
+        <field name="HUE">270</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="FWsXn@@X,4s3`?Gj08B;" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">prodtype_constant_instance_glazing</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="?{P:uOn3qEjVPT?7Y.jQ">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="|R{Jdy.E~j-/-uL,M?/D">
+            <field name="TEXT">Glas</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="=icRbvSL(XGk:{Kuh/:(">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="#)KwR`O(9u!,a`XxnGy_">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="(.c^cU!B!!lX-}!}$Ix~">
+        <field name="TYPE">prodType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="Cv;.B|^iAPs:BOQm=g}(">
+        <mutation colour="#805ba5"></mutation>
+        <field name="HUE">270</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="t|K6m?|`)li(3bKD.c^A" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">prodtype_constant_instance_fitting</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="KmGa$N3i*30r[#JeMXR.">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="P){:^H]0s]Eqc`n]rVkl">
+            <field name="TEXT">Beschlag</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="6KN6ShpAYohBy!eqbV3d">
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="h}~XAr1gfEZ`4AcjkBh1">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="sH5X4tPzwgMlA0[#[Ey`">
+        <field name="TYPE">prodType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="@))BlCXj$JRA*I$zb:Z,">
+        <mutation colour="#805ba5"></mutation>
+        <field name="HUE">270</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="wOm[.0[ci{zU^yA|P={}" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="NONE"></mutation>
+    <field name="NAME">catalogue_page</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">NONE</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id=".FFk]8Bt@-~_]~G:sN$_">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="A#F]-Xt2aoxUI~Pg2;RL">
+            <field name="TEXT">Katalog Seite(n)</field>
+            <next>
+              <block type="field_number" id="V*ku~BJ]n!cmp]DQi7p~">
+                <field name="VALUE">0</field>
+                <field name="FIELDNAME">Seiten Nr. von</field>
+                <field name="MIN">0</field>
+                <field name="MAX">Infinity</field>
+                <field name="PRECISION">0</field>
+                <next>
+                  <block type="field_static" id="j:R3S(0a^`Q9!NC,_KVO">
+                    <field name="TEXT">-</field>
+                    <next>
+                      <block type="field_number" id="5kLFol%lJ(J*v]|cEc,f">
+                        <field name="VALUE">0</field>
+                        <field name="FIELDNAME">Seiten Nr. bis</field>
+                        <field name="MIN">0</field>
+                        <field name="MAX">Infinity</field>
+                        <field name="PRECISION">0</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id="8~[[vO]Q_q^zh:DXRX3o">
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="3DXah-;_`K^o?jCf+Ep*">
+                <field name="TEXT">Art der Seite</field>
+                <next>
+                  <block type="field_dropdown" id="pct3,e_=w5x,bmdHL[X.">
+                    <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                    <field name="FIELDNAME">page_type</field>
+                    <field name="USER0">Preis Matrix</field>
+                    <field name="CPU0">price_matrix</field>
+                    <field name="USER1">Farben</field>
+                    <field name="CPU1">color</field>
+                    <field name="USER2">Features</field>
+                    <field name="CPU2">features</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="input_value" id="#vB-$=;fQQPg{aahowql">
+                <field name="INPUTNAME">catalogue_name</field>
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="Mxd=CN@RARy1AC~fqG?7">
+                    <field name="TEXT">Katalog Name</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="im@9D=3(T(*NQe06Wy#5"></shadow>
+                  <block type="type_string" id="0=-A6,}2tcR|Tw5^[u5N"></block>
+                </value>
+                <next>
+                  <block type="input_value" id=";,go|dN:wJ!~LxU6^@ej">
+                    <field name="INPUTNAME">Target</field>
+                    <field name="ALIGN">LEFT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="WTcf#:Ul;lzID(qu(r)9">
+                        <field name="TEXT">Spezifiziert</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="Q_c4:_+?lOt5Jz=#N(wZ"></shadow>
+                      <block type="type_group" id=",Ir?d)u:}#?4+`b|Lqxg">
+                        <mutation types="2"></mutation>
+                        <value name="TYPE0">
+                          <block type="type_other" id="QC/je;sO32sjj,g|hBz8">
+                            <field name="TYPE">product</field>
+                          </block>
+                        </value>
+                        <value name="TYPE1">
+                          <block type="type_list" id="L|Y[wLCmt084(n$$lA|j"></block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="input_value" id="^M]%|#Ke-{kV3@@Z2ky9">
+                        <field name="INPUTNAME">DOCUMENT</field>
+                        <field name="ALIGN">LEFT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="%.M51,g#/un/x@IHZp#H">
+                            <field name="TEXT">Dokument</field>
+                            <next>
+                              <block type="field_dropdown" id="E[q]xCyNX_lPJX#}s!E?">
+                                <mutation options="[&quot;text&quot;,&quot;text&quot;]"></mutation>
+                                <field name="FIELDNAME">DOC_TYPE</field>
+                                <field name="USER0">Docparser</field>
+                                <field name="CPU0">d_json</field>
+                                <field name="USER1">Google Sheets</field>
+                                <field name="CPU1">g_sheets</field>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="R;n@OWLhKme^LqE93T*Y"></shadow>
+                          <block type="type_string" id="bs7@YUoNFH%UGE5y:xVU"></block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="TzhuhC0|.z~e6aaHQY94" deletable="false" movable="false">
+        <field name="TEXT">Dieses Objekt repräsentiert eine oder mehrere Katalog Seite. Ein Seitenbereich wird dabei durch das Ausfüllen beider Felder bestimmt, ist das zweite Feld eine 0, dann wird nur eine Seite referenziert. Eine Seite spezifiziert entweder ein Produkt oder eine Liste von Features oder Farben. Die Verknüpfung wird in Abhängigkeit der gewählten Art der Seite geschaffen.</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="fx@Sjb~O+*iJjUbBN@VP" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="q`C,:*dJ~%~xD%*Z^p+e">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="qO{p(+q/Kr[sxr8#EQ30" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">mattype_constant_instance_iota</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="[fpfF3*J@)*;#-=m_f-_">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="NBl-6r7Bo;]jA9*fr!bX">
+            <field name="TEXT">unbekannt</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="P]f(.w0u{at8vt(l)+jb">
+        <field name="TEXT">Diese Konstante soll verwendet werden bei zB. Glas oder ähnlichen Teil-Produkten, welche bei allen Materialtypen eingesetzt werden können</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="AX)i:ExAq$4`7`.Az8mC">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <block type="type_other" id="@?0#V2e;B(QeX@[wYyj|">
+        <field name="TYPE">matType_constant</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="-0@))$e);=#/Gd_61$iA">
+        <mutation colour="#5b5ba5"></mutation>
+        <field name="HUE">240</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="4go(q}DpYV`R5d|(n+a." deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">feature</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="%IRRd]S%81?25aqIGLyN">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="[9!$!LC5/flt10F_a+u*">
+            <field name="TEXT">Feature</field>
+            <next>
+              <block type="field_dropdown" id=")02w,~509j~~x:/Tepq2">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">Kategorie</field>
+                <field name="USER0">Hersteller</field>
+                <field name="CPU0">feature_manufacturer</field>
+                <field name="USER1">Profil</field>
+                <field name="CPU1">feature_profile</field>
+                <field name="USER2">Glas</field>
+                <field name="CPU2">feature_glazing</field>
+                <field name="USER3">Beschlag</field>
+                <field name="CPU3">feature_fittings</field>
+                <field name="USER4">Griff</field>
+                <field name="CPU4">feature_handle</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="p_pG[Uv,Uykzku^t0.?B">
+            <field name="INPUTNAME">feature_name</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="i41v77IFr6xFt/g;{J`G">
+                <field name="TEXT">Name</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="~k$VBO~Ca{;CIS%;[}kb"></shadow>
+              <block type="type_string" id=")0KWgq0`+JHh,U!e/nEG"></block>
+            </value>
+            <next>
+              <block type="input_value" id="g_LxR][dTUFOj^H8o#h5">
+                <field name="INPUTNAME">feature_value</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="_SsfFA1]XCqJr@plUY^)">
+                    <field name="TEXT">Wert</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="#Iief!98NOdk#YlGc.5O"></shadow>
+                  <block type="type_group" id="w$GwnCRpYYW.6[oih$-Y">
+                    <mutation types="2"></mutation>
+                    <value name="TYPE0">
+                      <block type="type_string" id="liLq?zzg3lip$V:.2%_A"></block>
+                    </value>
+                    <value name="TYPE1">
+                      <block type="type_number" id="P=^h,sib;777t:,wcp)x"></block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="input_value" id="YF;?hW]#sD$KBZK#8LT{">
+                    <field name="INPUTNAME">feature_prio</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id=";y86F)T)Kr@|_}hK[,K(">
+                        <field name="TEXT">Priorität</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="rg@,FR.}lT/:#7On2CvU"></shadow>
+                      <block type="type_number" id="[on04w^4I$yBeTz=b9i}"></block>
+                    </value>
+                    <next>
+                      <block type="input_dummy" id="fnfdAp#SL)E*Bw;`qb$u">
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="oesVi[[`/j(f=]-Ujvk2">
+                            <field name="TEXT">Versteckt</field>
+                            <next>
+                              <block type="field_checkbox" id="bU%%1Ew*c)S%`!z/xIU5">
+                                <field name="CHECKED">TRUE</field>
+                                <field name="FIELDNAME">hidden</field>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="T:YOH0h/9?}5fmF1bQuK" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="WILG1{AkhCZZ.(iJj0A]" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="y_|bFmC[|KD$-qFKA#4+"></shadow>
+      <block type="type_other" id="/Yqk@!!^FF(~.)xU!{i]">
+        <field name="TYPE">feature</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="Nj}pIU:)991UzW*KYgvb">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block></xml>
