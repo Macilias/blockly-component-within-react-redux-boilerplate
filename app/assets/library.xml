@@ -1,4 +1,5 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"><block type="factory_base" id="j[}HhO%[kfq=Q2HHD#yB" x="10" y="10">
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="factory_base" id="j[}HhO%[kfq=Q2HHD#yB" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">product</field>
     <field name="INLINE">AUTO</field>
@@ -126,7 +127,9 @@
         <field name="HUE">230</field>
       </block>
     </value>
-  </block><block type="factory_base" id="=}uH{a]1NFwM9_0qYgv}" deletable="false" movable="false" x="10" y="10">
+  </block>
+  <block type="factory_base" id="=}uH{a]1NFwM9_0qYgv}" deletable="false" movable="false" x="10"
+         y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">kategorie_constant_instance_door</field>
     <field name="INLINE">INT</field>
@@ -143,7 +146,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="}1AN6iZORumX{dx/AzkY" deletable="false" movable="false">
-        <field name="TEXT">Diese Konstante soll verwendet werden um die Kategorie eines Produktes und der damit zu erzeugenden Lösung zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um die Kategorie eines Produktes
+          und der damit zu erzeugenden Lösung zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -163,7 +168,8 @@
         <field name="HUE">60</field>
       </block>
     </value>
-  </block><block type="factory_base" id="KtcYp4G/B8.=WJj8JuWh" x="10" y="10">
+  </block>
+  <block type="factory_base" id="KtcYp4G/B8.=WJj8JuWh" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">kategorie_constant_instance_window</field>
     <field name="INLINE">INT</field>
@@ -180,7 +186,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="?;Toa4fzTn4.Vi^Vo7O/">
-        <field name="TEXT">Diese Konstante soll verwendet werden um die Kategorie eines Produktes und der damit zu erzeugenden Lösung zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um die Kategorie eines Produktes
+          und der damit zu erzeugenden Lösung zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -199,7 +207,8 @@
         <field name="HUE">60</field>
       </block>
     </value>
-  </block><block type="factory_base" id="F.6/Ny6rwA?,f1/y56ZV" x="10" y="10">
+  </block>
+  <block type="factory_base" id="F.6/Ny6rwA?,f1/y56ZV" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">otype_matcher_constant_instance_door</field>
     <field name="INLINE">INT</field>
@@ -216,7 +225,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="Cf*rk6udX?g4EJ13rX^g">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer Position zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer
+          Position zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -235,7 +246,8 @@
         <field name="HUE">210</field>
       </block>
     </value>
-  </block><block type="factory_base" id="85Ag}iU8SP-wrbo-]+~q" x="10" y="10">
+  </block>
+  <block type="factory_base" id="85Ag}iU8SP-wrbo-]+~q" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">otype_matcher_constant_instance_window_door</field>
     <field name="INLINE">INT</field>
@@ -252,7 +264,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="9YT2HZWXes.dWPYZjiwB">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer Position zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer
+          Position zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -271,7 +285,8 @@
         <field name="HUE">210</field>
       </block>
     </value>
-  </block><block type="factory_base" id="oY`c[Xfq!WJmr#Y9UMRL" x="10" y="10">
+  </block>
+  <block type="factory_base" id="oY`c[Xfq!WJmr#Y9UMRL" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">otype_matcher_constant_instance_window</field>
     <field name="INLINE">INT</field>
@@ -288,7 +303,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="$@t$H0`D{G_-5dIxw`nH">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer Position zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den passenden Öffnungstyp einer
+          Position zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -307,7 +324,8 @@
         <field name="HUE">210</field>
       </block>
     </value>
-  </block><block type="factory_base" id="#)W^*.FAyo`D3xn8OXQ." x="10" y="10">
+  </block>
+  <block type="factory_base" id="#)W^*.FAyo`D3xn8OXQ." x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">matType_constant_instance_pvc</field>
     <field name="INLINE">INT</field>
@@ -324,7 +342,8 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="cqe+k[,`QJ4C8`I[QZT0">
-        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -343,7 +362,8 @@
         <field name="HUE">240</field>
       </block>
     </value>
-  </block><block type="factory_base" id="@p}yYW*.=Z@%1P{:Sa2f" x="10" y="10">
+  </block>
+  <block type="factory_base" id="@p}yYW*.=Z@%1P{:Sa2f" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">mattype_constant_instance_pvcAlu</field>
     <field name="INLINE">INT</field>
@@ -360,7 +380,8 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="qvH~bM5xG=2?BQnb2-DC">
-        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -379,7 +400,8 @@
         <field name="HUE">240</field>
       </block>
     </value>
-  </block><block type="factory_base" id="z]y682zu6=l+=$pO]10p" x="10" y="10">
+  </block>
+  <block type="factory_base" id="z]y682zu6=l+=$pO]10p" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">mattype_constant_instance_alu</field>
     <field name="INLINE">INT</field>
@@ -396,7 +418,8 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="^tEbc)l9i}~Wuo5!`,rn">
-        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -415,7 +438,8 @@
         <field name="HUE">240</field>
       </block>
     </value>
-  </block><block type="factory_base" id="kih@%eTLw6[PS;D5{{dZ" x="10" y="10">
+  </block>
+  <block type="factory_base" id="kih@%eTLw6[PS;D5{{dZ" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">mattype_constant_instance_wood</field>
     <field name="INLINE">INT</field>
@@ -432,7 +456,8 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="#U,YDp8RPb)_i5I,sIBU">
-        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -451,7 +476,8 @@
         <field name="HUE">240</field>
       </block>
     </value>
-  </block><block type="factory_base" id="63UItGk^c^YPLnv.KB/Y" x="10" y="10">
+  </block>
+  <block type="factory_base" id="63UItGk^c^YPLnv.KB/Y" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">mattype_constant_instance_woodAlu</field>
     <field name="INLINE">INT</field>
@@ -468,7 +494,8 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=";$u**J4[9f62tjSK=.jM">
-        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um das Material zu definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -487,7 +514,8 @@
         <field name="HUE">240</field>
       </block>
     </value>
-  </block><block type="factory_base" id="kPZ5a4Y,Gn[B8,ljfJ?P" x="10" y="10">
+  </block>
+  <block type="factory_base" id="kPZ5a4Y,Gn[B8,ljfJ?P" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">prodtype_constant_instance_frame</field>
     <field name="INLINE">INT</field>
@@ -504,7 +532,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="bNNySVg;bmA?g5MP+$_M">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes
+          definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -523,7 +553,8 @@
         <field name="HUE">270</field>
       </block>
     </value>
-  </block><block type="factory_base" id="PMBKl}lx,$-G89N|x~]1" x="10" y="10">
+  </block>
+  <block type="factory_base" id="PMBKl}lx,$-G89N|x~]1" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">prodtype_constant_instance_sill</field>
     <field name="INLINE">INT</field>
@@ -540,7 +571,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="Ar]V_0T_KU5d(Sipx=y/">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes
+          definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -559,7 +592,8 @@
         <field name="HUE">270</field>
       </block>
     </value>
-  </block><block type="factory_base" id="q`6!K%;-XH_~v?m/=x2S" x="10" y="10">
+  </block>
+  <block type="factory_base" id="q`6!K%;-XH_~v?m/=x2S" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">prodtype_constant_instance_windowsill</field>
     <field name="INLINE">INT</field>
@@ -576,7 +610,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="nkP8!@7vN+QtRujhiN:.">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes
+          definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -595,7 +631,8 @@
         <field name="HUE">270</field>
       </block>
     </value>
-  </block><block type="factory_base" id="ZFAHu#J+WWg5;0?^oyDc" x="10" y="10">
+  </block>
+  <block type="factory_base" id="ZFAHu#J+WWg5;0?^oyDc" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">prodtype_constant_instance_handle</field>
     <field name="INLINE">INT</field>
@@ -612,7 +649,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="77Ue+jz~L..!@:iNi`~R">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes
+          definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -631,7 +670,8 @@
         <field name="HUE">270</field>
       </block>
     </value>
-  </block><block type="factory_base" id="FWsXn@@X,4s3`?Gj08B;" x="10" y="10">
+  </block>
+  <block type="factory_base" id="FWsXn@@X,4s3`?Gj08B;" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">prodtype_constant_instance_glazing</field>
     <field name="INLINE">INT</field>
@@ -648,7 +688,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="=icRbvSL(XGk:{Kuh/:(">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes
+          definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -667,7 +709,8 @@
         <field name="HUE">270</field>
       </block>
     </value>
-  </block><block type="factory_base" id="t|K6m?|`)li(3bKD.c^A" x="10" y="10">
+  </block>
+  <block type="factory_base" id="t|K6m?|`)li(3bKD.c^A" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">prodtype_constant_instance_fitting</field>
     <field name="INLINE">INT</field>
@@ -684,7 +727,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="6KN6ShpAYohBy!eqbV3d">
-        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes definieren.</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden um den Typ des Produktes
+          definieren.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -703,7 +748,9 @@
         <field name="HUE">270</field>
       </block>
     </value>
-  </block><block type="factory_base" id="wOm[.0[ci{zU^yA|P={}" deletable="false" movable="false" x="10" y="10">
+  </block>
+  <block type="factory_base" id="wOm[.0[ci{zU^yA|P={}" deletable="false" movable="false" x="10"
+         y="10">
     <mutation connections="NONE"></mutation>
     <field name="NAME">catalogue_page</field>
     <field name="INLINE">EXT</field>
@@ -747,7 +794,8 @@
                 <field name="TEXT">Art der Seite</field>
                 <next>
                   <block type="field_dropdown" id="pct3,e_=w5x,bmdHL[X.">
-                    <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                    <mutation
+                      options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
                     <field name="FIELDNAME">page_type</field>
                     <field name="USER0">Preis Matrix</field>
                     <field name="CPU0">price_matrix</field>
@@ -830,7 +878,12 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="TzhuhC0|.z~e6aaHQY94" deletable="false" movable="false">
-        <field name="TEXT">Dieses Objekt repräsentiert eine oder mehrere Katalog Seite. Ein Seitenbereich wird dabei durch das Ausfüllen beider Felder bestimmt, ist das zweite Feld eine 0, dann wird nur eine Seite referenziert. Eine Seite spezifiziert entweder ein Produkt oder eine Liste von Features oder Farben. Die Verknüpfung wird in Abhängigkeit der gewählten Art der Seite geschaffen.</field>
+        <field name="TEXT">Dieses Objekt repräsentiert eine oder mehrere Katalog Seite. Ein
+          Seitenbereich wird dabei durch das Ausfüllen beider Felder bestimmt, ist das zweite Feld
+          eine 0, dann wird nur eine Seite referenziert. Eine Seite spezifiziert entweder ein
+          Produkt oder eine Liste von Features oder Farben. Die Verknüpfung wird in Abhängigkeit der
+          gewählten Art der Seite geschaffen.
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -844,7 +897,8 @@
         <field name="HUE">230</field>
       </block>
     </value>
-  </block><block type="factory_base" id="qO{p(+q/Kr[sxr8#EQ30" x="10" y="10">
+  </block>
+  <block type="factory_base" id="qO{p(+q/Kr[sxr8#EQ30" x="10" y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">mattype_constant_instance_iota</field>
     <field name="INLINE">INT</field>
@@ -861,7 +915,9 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="P]f(.w0u{at8vt(l)+jb">
-        <field name="TEXT">Diese Konstante soll verwendet werden bei zB. Glas oder ähnlichen Teil-Produkten, welche bei allen Materialtypen eingesetzt werden können</field>
+        <field name="TEXT">Diese Konstante soll verwendet werden bei zB. Glas oder ähnlichen
+          Teil-Produkten, welche bei allen Materialtypen eingesetzt werden können
+        </field>
       </block>
     </value>
     <value name="HELPURL">
@@ -880,7 +936,9 @@
         <field name="HUE">240</field>
       </block>
     </value>
-  </block><block type="factory_base" id="4go(q}DpYV`R5d|(n+a." deletable="false" movable="false" x="10" y="10">
+  </block>
+  <block type="factory_base" id="4go(q}DpYV`R5d|(n+a." deletable="false" movable="false" x="10"
+         y="10">
     <mutation connections="LEFT"></mutation>
     <field name="NAME">feature</field>
     <field name="INLINE">EXT</field>
@@ -893,7 +951,8 @@
             <field name="TEXT">Feature</field>
             <next>
               <block type="field_dropdown" id=")02w,~509j~~x:/Tepq2">
-                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <mutation
+                  options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
                 <field name="FIELDNAME">Kategorie</field>
                 <field name="USER0">Hersteller</field>
                 <field name="CPU0">feature_manufacturer</field>
@@ -1002,4 +1061,5 @@
         <field name="HUE">230</field>
       </block>
     </value>
-  </block></xml>
+  </block>
+</xml>
