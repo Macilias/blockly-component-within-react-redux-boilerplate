@@ -26,6 +26,7 @@ import { changeUsername } from './actions';
 import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
 import saga from './saga';
+import BlocklyWrapper from './BlocklyWrapper';
 
 /* eslint-disable react/prefer-stateless-function */
 export class BlocklyPage extends React.PureComponent {
@@ -60,7 +61,7 @@ export class BlocklyPage extends React.PureComponent {
         {/* initialXml="assets/library.xml" */}
         {/* wrapperDivClassName="blockly" */}
         {/* /> */}
-        <div id="blockly" />
+        <BlocklyWrapper id="blockly" />
         <pre id="generated-xml" />
         <textarea id="code" value="" />
       </article>
