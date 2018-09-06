@@ -57,13 +57,8 @@ export class BlocklyPage extends React.PureComponent {
           />
         </Helmet>
         <BlocklyEditor />
-        {/* <ReactBlocklyComponent.BlocklyEditor */}
-        {/* initialXml="assets/library.xml" */}
-        {/* wrapperDivClassName="blockly" */}
-        {/* /> */}
-        <BlocklyWrapper id="blockly" />
-        <pre id="generated-xml" />
-        <textarea id="code" value="" />
+        <pre id="generated-xml"/>
+        <textarea id="code" value=""/>
       </article>
     );
   }
