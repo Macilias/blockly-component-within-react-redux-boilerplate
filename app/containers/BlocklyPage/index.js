@@ -6,13 +6,13 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Helmet} from 'react-helmet';
-import {connect} from 'react-redux';
-import {compose} from 'redux';
-import {createStructuredSelector} from 'reselect';
+import { Helmet } from 'react-helmet';
+import { connect } from 'react-redux';
+import { compose } from 'redux';
+import { createStructuredSelector } from 'reselect';
 
 // https://stackoverflow.com/questions/48738761/warning-react-createelement-type-is-invalid-bundle-js/48738794?noredirect=1#comment84477644_48738794
-import BlocklyEditor from './BlocklyEditor'
+import BlocklyEditor from './BlocklyEditor';
 
 import injectReducer from 'utils/injectReducer';
 import injectSaga from 'utils/injectSaga';
@@ -21,9 +21,9 @@ import {
   makeSelectLoading,
   makeSelectError,
 } from 'containers/App/selectors';
-import {loadRepos} from '../App/actions';
-import {changeUsername} from './actions';
-import {makeSelectUsername} from './selectors';
+import { loadRepos } from '../App/actions';
+import { changeUsername } from './actions';
+import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 
@@ -39,7 +39,7 @@ export class BlocklyPage extends React.PureComponent {
   }
 
   render() {
-    const {loading, error, repos} = this.props;
+    const { loading, error, repos } = this.props;
     const reposListProps = {
       loading,
       error,
@@ -55,17 +55,14 @@ export class BlocklyPage extends React.PureComponent {
             content="A React.js Boilerplate application homepage"
           />
         </Helmet>
-        <BlocklyEditor/>
-        {/*<ReactBlocklyComponent.BlocklyEditor*/}
-        {/*initialXml="assets/library.xml"*/}
-        {/*wrapperDivClassName="blockly"*/}
-        {/*/>*/}
-        <div id="blockly"/>
-        <div id="category"/>
-        <div id="xml"/>
-        <pre id="generated-xml">
-         </pre>
-        <textarea id="code" value=""></textarea>
+        <BlocklyEditor />
+        {/* <ReactBlocklyComponent.BlocklyEditor */}
+        {/* initialXml="assets/library.xml" */}
+        {/* wrapperDivClassName="blockly" */}
+        {/* /> */}
+        <div id="blockly" />
+        <pre id="generated-xml" />
+        <textarea id="code" value="" />
       </article>
     );
   }
@@ -102,8 +99,8 @@ const withConnect = connect(
   mapDispatchToProps,
 );
 
-const withReducer = injectReducer({key: 'home', reducer});
-const withSaga = injectSaga({key: 'home', saga});
+const withReducer = injectReducer({ key: 'home', reducer });
+const withSaga = injectSaga({ key: 'home', saga });
 
 export default compose(
   withReducer,
