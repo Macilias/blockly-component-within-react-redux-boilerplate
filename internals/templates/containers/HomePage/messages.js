@@ -1,5 +1,5 @@
 /*
- * BlocklyPage Messages
+ * HomePage Messages
  *
  * This contains all the text for the BlocklyPage component.
  */
