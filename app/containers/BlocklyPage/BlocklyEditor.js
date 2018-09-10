@@ -9,12 +9,13 @@ import ReactBlocklyComponent from 'react-blockly-component';
 import ConfigFiles from './config';
 import BlocklyWrapper from './BlocklyWrapper';
 import FilledHightDiv from './FilledHightDiv';
+import styled from 'styled-components';
 
 const INITIAL_TOOLBOX_CATEGORIES = [
   {
     name: 'Controls',
     blocks: [
-      {type: 'controls_if'},
+      { type: 'controls_if' },
       {
         type: 'controls_repeat_ext',
         values: {
@@ -47,7 +48,7 @@ const INITIAL_TOOLBOX_CATEGORIES = [
   {
     name: 'Text',
     blocks: [
-      {type: 'text'},
+      { type: 'text' },
       {
         type: 'text_print',
         values: {
@@ -88,7 +89,7 @@ export class BlocklyEditor extends React.PureComponent {
           {
             name: 'Text2',
             blocks: [
-              {type: 'text'},
+              { type: 'text' },
               {
                 type: 'text_print',
                 values: {
@@ -120,7 +121,7 @@ export class BlocklyEditor extends React.PureComponent {
         },
       },
       initialXml: ConfigFiles.BlockLibraryXml,
-      // wrapperDivClassName: 'fill-height',
+      wrapperDivClassName: 'fill-height',
       workspaceDidChange: this.workspaceDidChange,
     });
 
