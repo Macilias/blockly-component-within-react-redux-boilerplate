@@ -48,18 +48,19 @@ export class BlocklyPage extends React.PureComponent {
     };
 
     return (
-      <article>
-        <Helmet>
-          <title>Blockly Page</title>
-          <meta
-            name="description"
-            content="A React.js Boilerplate application homepage"
-          />
-        </Helmet>
-        <BlocklyEditor />
-        <pre id="generated-xml"/>
-        <textarea id="code" value=""/>
-      </article>
+      <BlocklyEditor />
+      // <article>
+      //   <Helmet>
+      //     <title>Blockly Page</title>
+      //     <meta
+      //       name="description"
+      //       content="A React.js Boilerplate application homepage"
+      //     />
+      //   </Helmet>
+      //
+      //   <pre id="generated-xml"/>
+      //   <textarea id="code" value=""/>
+      // </article>
     );
   }
 }

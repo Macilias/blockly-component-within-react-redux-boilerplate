@@ -140,7 +140,7 @@ export class BlocklyEditor extends React.PureComponent {
           snap: true,
         },
       },
-      initialXml: INITIAL_XML,
+      initialXml: ConfigFiles.BlockLibraryXml,
       // wrapperDivClassName: 'fill-height',
       workspaceDidChange: this.workspaceDidChange,
     });
