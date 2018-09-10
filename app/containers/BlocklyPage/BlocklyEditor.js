@@ -66,7 +66,7 @@ const INITIAL_TOOLBOX_CATEGORIES = [
 
 export class BlocklyEditor extends React.PureComponent {
   workspaceDidChange = workspace => {
-    const newXml = Blockly.Xml.domToText(BlocklyEditor.Xml.workspaceToDom(workspace));
+    const newXml = Blockly.Xml.domToText(Blockly.Xml.workspaceToDom(workspace));
     document.getElementById('generated-xml').innerText = newXml;
 
     const code = Blockly.JavaScript.workspaceToCode(workspace);
@@ -127,6 +127,8 @@ export class BlocklyEditor extends React.PureComponent {
     return (
       <BlocklyWrapper>
         <FilledHightDiv>{editor}</FilledHightDiv>
+        <pre id="generated-xml"/>
+        <textarea id="code" value=""/>
       </BlocklyWrapper>
     );
   }
