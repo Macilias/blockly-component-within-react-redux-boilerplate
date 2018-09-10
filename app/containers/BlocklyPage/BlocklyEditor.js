@@ -9,7 +9,6 @@ import ReactBlocklyComponent from 'react-blockly-component';
 import ConfigFiles from './config';
 import BlocklyWrapper from './BlocklyWrapper';
 import FilledHightDiv from './FilledHightDiv';
-import styled from 'styled-components';
 
 const INITIAL_TOOLBOX_CATEGORIES = [
   {
@@ -67,11 +66,11 @@ const INITIAL_TOOLBOX_CATEGORIES = [
 
 export class BlocklyEditor extends React.PureComponent {
   workspaceDidChange = workspace => {
-    // const newXml = BlocklyEditor.Xml.domToText(BlocklyEditor.Xml.workspaceToDom(workspace));
-    // document.getElementById('generated-xml').innerText = newXml;
-    //
-    // const code = BlocklyEditor.JavaScript.workspaceToCode(workspace);
-    // document.getElementById('code').value = code;
+    const newXml = Blockly.Xml.domToText(BlocklyEditor.Xml.workspaceToDom(workspace));
+    document.getElementById('generated-xml').innerText = newXml;
+
+    const code = Blockly.JavaScript.workspaceToCode(workspace);
+    document.getElementById('code').value = code;
     console.log('workspaceDidChange');
   };
 
@@ -87,7 +86,7 @@ export class BlocklyEditor extends React.PureComponent {
       this.setState({
         toolboxCategories: this.state.toolboxCategories.concat([
           {
-            name: 'Text2',
+            name: 'Timeout Mount',
             blocks: [
               { type: 'text' },
               {
