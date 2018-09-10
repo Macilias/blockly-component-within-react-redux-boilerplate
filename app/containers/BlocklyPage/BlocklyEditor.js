@@ -10,32 +10,11 @@ import ConfigFiles from './config';
 import BlocklyWrapper from './BlocklyWrapper';
 import FilledHightDiv from './FilledHightDiv';
 
-const INITIAL_XML =
-  '<xml xmlns="http://www.w3.org/1999/xhtml"><block type="text" x="70" y="30"><field name="TEXT"></field></block></xml>';
-
-const INITIAL_TOOLBOX_CATEGORIES_EXT = [
-  {
-    type: 'controls_if',
-  },
-  {
-    type: 'controls_repeat_ext',
-    values: {
-      TIMES: {
-        type: 'math_number',
-        shadow: true,
-        fields: {
-          NUM: 10,
-        },
-      },
-    },
-  },
-];
-
 const INITIAL_TOOLBOX_CATEGORIES = [
   {
     name: 'Controls',
     blocks: [
-      { type: 'controls_if' },
+      {type: 'controls_if'},
       {
         type: 'controls_repeat_ext',
         values: {
@@ -68,7 +47,7 @@ const INITIAL_TOOLBOX_CATEGORIES = [
   {
     name: 'Text',
     blocks: [
-      { type: 'text' },
+      {type: 'text'},
       {
         type: 'text_print',
         values: {
@@ -86,6 +65,15 @@ const INITIAL_TOOLBOX_CATEGORIES = [
 ];
 
 export class BlocklyEditor extends React.PureComponent {
+  workspaceDidChange = workspace => {
+    // const newXml = BlocklyEditor.Xml.domToText(BlocklyEditor.Xml.workspaceToDom(workspace));
+    // document.getElementById('generated-xml').innerText = newXml;
+    //
+    // const code = BlocklyEditor.JavaScript.workspaceToCode(workspace);
+    // document.getElementById('code').value = code;
+    console.log('workspaceDidChange');
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -100,7 +88,7 @@ export class BlocklyEditor extends React.PureComponent {
           {
             name: 'Text2',
             blocks: [
-              { type: 'text' },
+              {type: 'text'},
               {
                 type: 'text_print',
                 values: {
@@ -119,15 +107,6 @@ export class BlocklyEditor extends React.PureComponent {
       });
     }, 2000);
   }
-
-  workspaceDidChange = workspace => {
-    // const newXml = BlocklyEditor.Xml.domToText(BlocklyEditor.Xml.workspaceToDom(workspace));
-    // document.getElementById('generated-xml').innerText = newXml;
-    //
-    // const code = BlocklyEditor.JavaScript.workspaceToCode(workspace);
-    // document.getElementById('code').value = code;
-    console.log('workspaceDidChange');
-  };
 
   render() {
     const editor = React.createElement(ReactBlocklyComponent.BlocklyEditor, {
@@ -151,42 +130,6 @@ export class BlocklyEditor extends React.PureComponent {
       </BlocklyWrapper>
     );
   }
-
-  /*
-  * Editor Class is the outer one containing toolbox and workspace!
-     <div className={this.props.wrapperDivClassName}>
-        <BlocklyToolbox
-          categories={Immutable.fromJS(this.props.toolboxCategories)}
-          blocks={Immutable.fromJS(this.props.toolboxBlocks)}
-          didUpdate={this.toolboxDidUpdate}
-          processCategory={this.props.processToolboxCategory}
-          ref={(toolbox) => { this.toolbox = toolbox; }}
-        />
-        <BlocklyWorkspace
-          ref={(workspace) => { this.workspace = workspace; }}
-          initialXml={this.props.initialXml}
-          onImportXmlError={this.props.onImportXmlError}
-          toolboxMode={toolboxMode}
-          xmlDidChange={this.xmlDidChange}
-          workspaceDidChange={this.workspaceDidChange}
-          wrapperDivClassName={this.props.wrapperDivClassName}
-          workspaceConfiguration={this.props.workspaceConfiguration}
-        />
-      </div>
-  * */
-
-  // Blockly.Blocks['kategorie_constant_instance_door'] = {
-  //   init: function () {
-  //     this.appendDummyInput()
-  //       .appendField("Tür");
-  //     this.setInputsInline(true);
-  //     this.setType("type");
-  //     this.setOutput(true, "categorie_constant");
-  //     this.setColour(60);
-  //     this.setTooltip("Diese Konstante soll verwendet werden um die Kategorie eines Produktes und der damit zu erzeugenden Lösung zu definieren.");
-  //     this.setHelpUrl("");
-  //   }
-  // };
 }
 
 export default BlocklyEditor;
