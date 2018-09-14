@@ -9,7 +9,7 @@ import ReactBlocklyComponent from 'react-blockly-component';
 import parseWorkspaceXml from 'react-blockly-component/dist-modules/BlocklyHelper';
 import ConfigFiles from './config';
 import BlocklyWrapper from './BlocklyWrapper';
-import FilledHightDiv from './FilledHightDiv';
+import FilledHeightDiv from './FilledHightDiv';
 
 export class BlocklyEditor extends React.PureComponent {
   workspaceDidChange = workspace => {
@@ -73,7 +73,7 @@ export class BlocklyEditor extends React.PureComponent {
 
     return (
       <BlocklyWrapper>
-        <FilledHightDiv>{editor}</FilledHightDiv>
+        <FilledHeightDiv>{editor}</FilledHeightDiv>
         <pre id="generated-xml" />
         <textarea id="code" value="" />
       </BlocklyWrapper>
